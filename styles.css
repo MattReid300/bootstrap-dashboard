@@ -65,9 +65,14 @@ body {
     height: 100%;
 }
 
-#app {
+#dashboard {
     height: 85%;
 }
+
+#login {
+    height: 100%;
+}
+
 
 #category {
     font-size: 12px;
@@ -103,3 +108,62 @@ body {
         height: auto;
     }
 }
+
+
+
+
+
+
+
+
+.form1 {
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media screen and (max-width: 1700px) {
+    .form1 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.subtitle {
+    margin-bottom: 40px;
+}
+
+.input {
+    border-style: none none solid none;
+    border-bottom: 2px solid #000000;
+    border-radius: 0;
+    height: 70px;
+    padding-left: 0;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: black !important;
+}
+
+#eye-icon {
+    padding-top: 30px;
+    border-style: none none solid none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+}
+
+.submit-btns {
+    padding-top: 50px;
+}
+
+.submit-btns button {
+    border-radius: 30px;
+    margin: 8px;
+    height: 60px;
+}
+
+#login-btn2 {
+    background-color: #f0f0f0;
+}
+
